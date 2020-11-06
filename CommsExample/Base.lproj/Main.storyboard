@@ -26,19 +26,18 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mNF-nc-YUg">
                                 <rect key="frame" x="0.0" y="44" width="414" height="201"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="414" id="ZTs-zp-UH1"/>
-                                    <constraint firstAttribute="height" constant="201" id="dqd-cy-g0u"/>
+                                    <constraint firstAttribute="height" constant="201" id="eG7-6r-mRf"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="mNF-nc-YUg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LYB-Sf-hNJ"/>
-                            <constraint firstItem="mNF-nc-YUg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="op9-93-3us"/>
-                            <constraint firstItem="xz1-Bc-oMp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rwU-AA-6Lv"/>
-                            <constraint firstItem="xz1-Bc-oMp" firstAttribute="top" secondItem="mNF-nc-YUg" secondAttribute="bottom" constant="188" id="uKi-py-aQg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mNF-nc-YUg" secondAttribute="trailing" id="yAT-8p-EXX"/>
+                            <constraint firstItem="xz1-Bc-oMp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="85l-wO-ekL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mNF-nc-YUg" secondAttribute="trailing" id="Mge-rX-boa"/>
+                            <constraint firstItem="xz1-Bc-oMp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P5D-ee-f2k"/>
+                            <constraint firstItem="mNF-nc-YUg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QME-xE-Y2W"/>
+                            <constraint firstItem="mNF-nc-YUg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rgc-51-hTs"/>
                         </constraints>
                     </view>
                     <connections>
